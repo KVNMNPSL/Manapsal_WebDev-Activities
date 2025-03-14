@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        
+        <!--Montserrat Font-->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        
+        <!--Material Icons-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+        
+        <!--Bootstrap CSS-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        
+        <!--Custom CSS-->
+        <link rel="stylesheet" href="C:\Users\Kevin\OneDrive\Desktop\WEbDev Coding\Manapsal_WebDev-Activities\Act#3\Portfolio Final\CSS\styles.css">
+        
+    </head>
+    <body>
+        <div class="cointer-fluid px-0">
+
+            <!--Navigation Bar-->
+            <nav class="navbar navbar-expand-lg navbar-light shadow">
+                <div class="container-fluid">
+                    <a href="/" class="navbar-brand">
+                        <span class="material-icons-outlined">important_devices</span>
+                        Manapsal Portfolio
+                    </a>
+                    <button 
+                        type="button"
+                        class="navbar-toggler"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="container px-3">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto me-2 my-1 my-lg-0">
+                                <li class="nav-item">
+                                    <a href="/" class="nav-link me-lg-3">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#about" class="nav-link me-lg-3">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#about" class="nav-link me-lg-3">Skills</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#projects" class="nav-link me-lg-3">Project</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#contact" class="nav-link me-lg-3">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!--End of NavBar-->
+
+            <!--Hero-->
+            <header class="bg-light py-5">
+                <div class="container px-5 bg">
+                    <div class="row align-items-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5">
+                                <h2 class="text-center fw-bold mb-2">Hi! I am Kevin Manapsal,</h2>
+                                <h2 class="text-primary text-center fw-bold mb-2">A Computer Science Student</h2>
+                                <p class="lead text-muted mb-4">
+                                    A third-year college student currently taking Bachelor of Science in Computer Science at the 
+                                    Polytechnic University of the Philippines Sta. Mesa. A self-driven person interested in computer-related 
+                                    tasks like web-development and data handling.
+                                </p>
+                                
+                                <div class="d-grid gap-3 d-sm-flex justify-content-center">
+                                    <a href="#about" class="btn btn-primary btn-large text-uppercase">
+                                        Learn More
+                                        <span class="material-icons-outlined ms-2">help_outline</span>
+                                    </a>
+                                    <a href="#projects" class="btn btn-outline-primary btn-large text-uppercase">
+                                        View My Work
+                                        <span class="material-icons-outlined ms-2">manage_search</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-xxl-6 justify-content-center">
+                            <img 
+                            src="C:\Users\Kevin\Downloads\Acc Pics\Kevin-cropped.JPG" 
+                            alt="My Photo" 
+                            class="img-fluid rounded-3 my-5">
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!--End of Hero-->
+
+            <main>
+                
+                <!--Carousel-->
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img 
+                            src="C:\Users\Kevin\Downloads\Assets\GarbageBinThereDoneThat.jpg" 
+                            class="d-block w-100" 
+                            alt="A Game that promotes proper waste disposal">
+                    </div>
+                    <div class="carousel-item">
+                        <img 
+                            src="C:\Users\Kevin\Downloads\Assets\TrackXDPic.jpg"
+                            class="d-block w-100" 
+                            alt="A media consumption tracker">
+                    </div>
+                    <div class="carousel-item">
+                        <img 
+                            src="C:\Users\Kevin\Downloads\Assets\SubwayApplicationForm.jpg" 
+                            class="d-block w-100" 
+                            alt="A website that collects Subway Application Forms">
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <!--End of Carousel-->
+
+
+                <!--About & Skills-->
+                <section id=about class="text-center py-5">
+                    <div class="row justify-content-center">
+                        <h2 class="fw-bold">About</h2>
+                        <p class="lead text-muted mb-5">
+                            I am a computer science student that learns how to build effective, pleasant, and scalable web applications.
+                        </p>
+                    </div>
+                    <div class="container mb-5">
+                        <div class="row">
+                            <div class="col-lg-4 mx-auto mb-5">
+                                <div class="d-flex mb-3 about">
+                                    <span class="material-icons-outlined m-auto text-primary">palette</span>
+                                </div>
+                                <h5>Design</h5>
+                                <p class="text-muted mb-0">
+                                    I'm learning how to create pleasing, modern designs optimized for multiple color modes (light and dark themes).
+                                </p>
+                            </div>
+                            <div class="col-lg-4 mx-auto mb-5">
+                                <div class="d-flex mb-3 about">
+                                    <span class="material-icons-outlined m-auto text-primary">code</span>
+                                </div>
+                                <h5>Development</h5>
+                                <p class="text-muted mb-0">
+                                    I'm learning how to develop responsive, scalable, and high-performance applications while following best coding practices.
+                                </p>
+                            </div>
+                            <div class="col-lg-4 mx-auto mb-5">
+                                <div class="d-flex mb-3 about">
+                                    <span class="material-icons-outlined m-auto text-primary">storage</span>
+                                </div>
+                                <h5>Database</h5>
+                                <p class="text-muted mb-0">
+                                    I'm learning how to integrate an optimized database to efficiently manage and process large datasets.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--End of About & Skills-->
+
+                <!--Work Experience-->
+                <section id=about class="text-center py-5 bg-dark">
+                    <div class="row justify-content-center">
+                        <h2 class="fw-bold text-light">Education & Work Experience</h2>
+                        <p class="lead text-light">
+                            Shaping My Skills and Vision
+                        </p>
+                    </div>
+                    <div class="container">
+                        <table class="table table-striped">
+                        <tr>
+                            <th>Institution</th>
+                            <th>Degree</th>
+                            <th>Years Attended</th>
+                        </tr> 
+                        <tr>
+                            <td>University of the East</td>
+                            <td>SHS Student - ICT Strand</td>
+                            <td>2020-2022</td>
+                        </tr> 
+                        <tr>
+                            <td>Polytechnic University of the Philippines</td>
+                            <td>College - Computer Science Student</td>
+                            <td>2022-2025</td>
+                        </tr>
+                        </table>
+                    </div>
+                </section>
+                <!--End of Work Experience-->
+
+                <!--Projects-->
+                <section id="projects" class="text-center py-3">
+                    <div class="container py-1">
+                        <div class="row justify-content-center">
+                            <h2 class="fw-bold">Projects</h2>
+                            <p class="lead text-muted mb-5">
+                                Here are some of the projects I've contributed to in creation or development.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="container mb-1">
+                        <div class="row">
+                            <div class="col-lg-4 mx-auto mb-5">
+                                <div class="card h-100 shadow-lg border-0 bg-light">
+                                    <img 
+                                    src="C:\Users\Kevin\Downloads\Assets\GarbageBinThereDoneThat1JPG.JPG"
+                                    alt="Proj#1: A Game that promotes proper waste disposal" 
+                                    class="card-img-top">
+                                    <div class="card-body p-4">
+                                        <h5 class="card-title mb-4">Garbage Bin There, Done That</h5>
+                                        <div class="mb-2">
+                                            <div class="badge bg-primary rounded-pill">Godot</div>
+                                            <div class="badge bg-primary rounded-pill">GDScript</div>
+                                        </div>
+                                        <p class="card-text">
+                                            Garbage Bin There, Done That is a game developed in order to promote and teach proper waste disposal.
+                                        </p>
+                                    </div>
+                                    <div class="card-footer bg-transparent mb-3">
+                                        <a 
+                                        href="https://github.com/psanoy17/GarbageGame.git" 
+                                        class="btn btn-outline-primary btn-sm text-uppercase text-center"
+                                        target="_blank"
+                                        >
+                                            <span class="material-icons-outlined md-2">code</span>
+                                            Source Code
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mx-auto mb-5">
+                                <div class="card h-100 shadow-lg border-0 bg-light">
+                                    <img 
+                                    src="C:\Users\Kevin\Downloads\Assets\TrackXDtry.JPG"
+                                    alt="Proj#2: An application that tracks media consumption" 
+                                    class="card-img-top"
+                                    s>
+                                    <div class="card-body p-4">
+                                        <h5 class="card-title mb-4">TrackXD</h5>
+                                        <div class="mb-2">
+                                            <div class="badge bg-primary rounded-pill">ASP.NET</div>
+                                            <div class="badge bg-primary rounded-pill">C#</div>
+                                        </div>
+                                        <p class="card-text">
+                                            TrackXD is an application that is developed in order to keep track of the media the users consume.
+                                        </p>
+                                    </div>
+                                    <div class="card-footer bg-transparent mb-3">
+                                        <a 
+                                        href="#projects" 
+                                        class="btn btn-outline-primary btn-sm text-uppercase text-center"
+                                        target="_blank"
+                                        >
+                                            <span class="material-icons-outlined md-2">code</span>
+                                            Source Code
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mx-auto mb-5">
+                                <div class="card h-100 shadow-lg border-0 bg-light">
+                                    <img 
+                                    src="C:\Users\Kevin\Downloads\Assets\SubwayApplicationForm1.JPG"
+                                    alt="Proj#3: A website that collects and tracks all the applications for Subway" 
+                                    class="card-img-top">
+                                    <div class="card-body p-4">
+                                        <h5 class="card-title mb-4">Subway Application Form Website</h5>
+                                        <div class="mb-2">
+                                            <div class="badge bg-primary rounded-pill">Python</div>
+                                            <div class="badge bg-primary rounded-pill">MySQL</div>
+                                        </div>
+                                        <p class="card-text">
+                                            Subway Application Form is a website that collects and tracks all the application for Subway.
+                                        </p>
+                                    </div>
+                                    <div class="card-footer bg-transparent mb-3">
+                                        <a 
+                                        href="#projects" 
+                                        class="btn btn-outline-primary btn-sm text-uppercase text-center"
+                                        target="_blank"
+                                        >
+                                            <span class="material-icons-outlined md-2">code</span>
+                                            Source Code
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--End of Projects-->
+
+                <!--Contacts-->
+                <section id="contact" class="text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <h2 class="fw-bold">Contacts</h2>
+                            <p class="lead text-muted">
+                                You can reach and contact me through this!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="container px-5 bg">
+                        <div class="row align-items-center">
+                            <div class="col-lg-5 col-xxl-6 justify-content-center">
+                                <img 
+                                src="C:\Users\Kevin\Downloads\Assets\pixeltrue-contact-me.png"
+                                alt="Contact Me Illustration" 
+                                class="img-fluid rounded-3 my-5">
+                            </div>
+                            <div class="col-lg-7 col-xl-6 col-xxl-5">
+                                <div class="my-2">
+                                    <h4 class="text-primary text-center fw-bold mb-2">Address</h4>
+                                    <h6 class="text-center fw-bold mb-2">Metro Manila, Philippines</h6>
+                                    <br>
+                                    <h4 class="text-primary text-center fw-bold mb-2">Contact</h4>
+                                    <h6 class="text-center fw-bold mb-2">09270161332</h6>
+                                    <br>
+                                    <h4 class="text-primary text-center fw-bold mb-2">Email</h4>
+                                    <h6 class="text-center fw-bold mb-2">manapsal.kevin.camacho@gmail.com</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--End of Contacts-->
+
+            </main>
+
+        </div>
+
+        <!--Footer-->
+        <!--End of Footer-->
+
+        <!--Bootstrap JS-->
+        <script 
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+            crossorigin="anonymous">
+        </script>
+
+        <!--Custom JS-->
+        <script src="JS/scripts.js"></script>
+    </body>
+</html>
+    
